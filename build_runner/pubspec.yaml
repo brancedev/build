@@ -32,12 +32,12 @@ dependencies:
   pub_semver: ">=1.4.0 <3.0.0"
   pubspec_parse: ^0.1.0
   shelf: ">=0.6.5 <2.0.0"
-  shelf_web_socket: ^0.2.2+4
+  shelf_web_socket: ^1.0.0
   stack_trace: ^1.9.0
   stream_transform: ">=0.0.20 <3.0.0"
   timing: ^0.1.1
   watcher: '>=0.9.7 <2.0.0'
-  web_socket_channel: ^1.0.9
+  web_socket_channel: ^2.0.0
   yaml: ">=2.1.11 <4.0.0"
 
 dev_dependencies:
@@ -52,24 +52,24 @@ dev_dependencies:
   _test_common:
     path: ../_test_common
 
-dependency_overrides:
+#dependency_overrides:
   ## Remove each of the below as they are published
-  build:
-    path: ../build
-  build_config:
-    path: ../build_config
-  build_daemon:
-    path: ../build_daemon
-  build_modules:
-    path: ../build_modules
-  build_resolvers:
-    path: ../build_resolvers
-  build_runner_core:
-    path: ../build_runner_core
-  build_test:
-    path: ../build_test
-  build_web_compilers:
-    path: ../build_web_compilers
-  scratch_space:
-    path: ../scratch_space
+ # build:
+ #   path: ../build
+ # build_config:
+ #   path: ../build_config
+ # build_daemon:
+ #   path: ../build_daemon
+ # build_modules:
+ #   path: ../build_modules
+ # build_resolvers:
+ #   path: ../build_resolvers
+ # build_runner_core:
+ #   path: ../build_runner_core
+ # build_test:
+ #   path: ../build_test
+ # build_web_compilers:
+ #   path: ../build_web_compilers
+ # scratch_space:
+ #   path: ../scratch_space
   ## Remove each of the above as they are published
